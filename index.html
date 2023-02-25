@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MoonNow</title>
+        <link rel="stylesheet" href="./assets/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a class="logo" href="#"><img src="./assets/img/logo.svg"><img></a>
+            <div class="esquerda">
+                <a href="#">Quem somos</a>
+                <a href="#">Nosso propósito</a>
+                <a href="#">Suporte</a>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="container">
+
+            <div class="formulario">
+                <h1 id="lblIncrever">INSCREVA-SE E <br> VIAJE PARA A LUA<br> GRATUITAMENTE</h1>
+                <form>
+                    <input class="inputTxt" type="text" placeholder="Nome completo" id="txtNome"><br><br>
+                    <input class="inputTxt" type="email" placeholder="Seu melhor e-mail" id="txtEmail"><br>
+                        <br>
+                </form>
+                <button id="btnEnviar" onclick="validaFormulario()">Quero ir pra lua!</button>
+                <button id="btnInfo">Mais informações</button>
+            </div>
+
+            <div class="imgFoguete">
+                <img src="./assets/img/foguete.svg">
+            </div>
+
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+              <span id="btnFechar" onclick="fechaModal()" class="close">&times;</span>
+              <img src="./assets/img/erro.png" width="100">
+              <p>Não foi possível concluir seu cadastro, por favor, cheque os campos e tente novamente.</p>
+            </div>
+          
+          </div>
+        
+        <script src="./assets/script.js"></script>
+    </body>
+
+</html>

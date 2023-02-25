@@ -1,0 +1,152 @@
+body{
+    background-image: linear-gradient(to bottom right, black, purple);
+    background-repeat: no-repeat;
+    background-size:auto;
+
+    overflow: hidden;
+}
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.esquerda{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%); 
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #E0DAED;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: inline-block;
+
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+
+    text-align: center;
+    justify-content: center;
+
+color: rgba(159, 127, 219, 0.8);
+}
+
+    #lblInscrever{
+        font-family: 'Baloo Bhaina 2';
+    }
+
+    .inputTxt{
+        width: 250px;
+        height: 45px;
+
+        color: white;
+
+        background: #9F7FDB;
+        border-radius: 10px;
+    }
+
+    .inputTxt::placeholder{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 20px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    #btnEnviar{
+        background: #7834F3;
+        border-radius: 8px;
+
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+
+        color: #E9E1FD;
+    }
+
+    #btnInfo{
+        background: #9F7FDB;
+        border-radius: 8px;
+
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+
+        color: #E9E1FD;
+    }
+
+.imgFoguete{
+    padding-left: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+    text-align: center;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
